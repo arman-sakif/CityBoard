@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navDrawerId"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/drawerProfileImage"
+        android:layout_width="80dp"
+        android:layout_height="87dp"
+        android:src="@drawable/register_person_icon" />
+
+    <TextView
+
+        android:id="@+id/drawerUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Sadman Alvee"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:drawableEnd="@drawable/nav_menu_verifieduser_icon"
+        android:paddingTop="8dp"
+        android:text=" Platinum User"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+</LinearLayout>

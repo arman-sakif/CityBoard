@@ -1,0 +1,10 @@
+version 1.9 update ---- Arman
+
+1. Login & Register works
+	connected with DB
+	Register stores datas in realtime database
+	realtime DB write permission changed from false to true
+
+Version 1.12 update -----Arman
+
+1.

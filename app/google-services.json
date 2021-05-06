@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1080521118381",
+    "project_id": "cityboarddemo",
+    "storage_bucket": "cityboarddemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080521118381:android:0372a6a5d0df3c8e556c24",
+        "android_client_info": {
+          "package_name": "com.example.cityboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080521118381-p1kd4qqa1095141krafbf484goaijrff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9I5znvaPzMzFCDk4sLcQYMqN74E38Y2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080521118381-p1kd4qqa1095141krafbf484goaijrff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

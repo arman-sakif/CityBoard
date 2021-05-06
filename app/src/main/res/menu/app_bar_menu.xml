@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/appBarHomeID"
+        android:icon="@drawable/bottom_app_bar_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/appBarSearchID"
+        android:icon="@drawable/bottom_app_bar_search"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/anchorID"
+        android:title=""/>
+
+    <item
+        android:id="@+id/appBarProfileID"
+        android:icon="@drawable/bottom_app_bar_person"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/appBarChatID"
+        android:icon="@drawable/bottom_app_bar_chat"
+        android:title="Chat" />
+
+</menu>

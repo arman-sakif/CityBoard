@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/slideImageViewID"
+        android:layout_width="181dp"
+        android:layout_height="174dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:translationY="-50dp"
+        app:srcCompat="@drawable/ic_shopping_cart" />
+
+    <TextView
+        android:id="@+id/slideTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="top"
+        android:layout_marginTop="265dp"
+        android:text="BUY AND SELL"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationY="-20dp" />
+    //        android:layout_gravity="center_horizontal"
+    <TextView
+        android:id="@+id/slideDescTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="top"
+        android:layout_marginTop="240sp"
+        android:gravity="center"
+        android:text="@string/buy_sell"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:translationY="50dp" />
+
+
+</RelativeLayout>

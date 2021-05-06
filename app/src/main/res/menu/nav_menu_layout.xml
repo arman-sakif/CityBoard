@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="My Activities" >
+
+        <menu>
+
+            <item android:id="@+id/myCommunityID"
+                android:title="My Community"
+                android:icon="@drawable/nav_drawer_mycommunity_icon"
+
+                />
+
+            <item android:id="@+id/userHistoryID"
+                android:title="User History"
+                android:icon="@drawable/nav_menu_user_history_icon"
+
+                />
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Settings" >
+
+        <menu>
+
+            <item android:id="@+id/accountSettingsID"
+                android:title="Account Settings"
+                android:icon="@drawable/nav_drawer_mycommunity_icon"
+
+                />
+
+            <item android:id="@+id/Logout"
+                android:title="Logout"
+                android:icon="@drawable/nav_menu_drawer_logout_icon"
+
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="CityBoard" >
+
+        <menu>
+
+            <item android:id="@+id/helpLine"
+                android:title="Help Line"
+                android:icon="@drawable/nav_menu_drawer_helpline_icon"
+
+                />
+
+            <item android:id="@+id/termsAndConditions"
+                android:title="Terms and Conditions"
+                android:icon="@drawable/nav_menu_drawer_termsandconditions_icon"
+
+                />
+
+        </menu>
+
+    </item>
+
+
+<!--
+
+    <item android:title="My Account" >
+
+        <menu>
+
+            <item android:id="@+id/myCommunityID5"
+                android:title="My Community"
+                android:icon="@drawable/nav_drawer_mycommunity_icon"
+
+                />
+
+            <item android:id="@+id/userHistoryID3"
+                android:title="User History"
+                android:icon="@drawable/nav_menu_user_history_icon"
+
+                />
+
+        </menu>
+
+    </item>
+
+-->
+
+
+
+
+</menu>

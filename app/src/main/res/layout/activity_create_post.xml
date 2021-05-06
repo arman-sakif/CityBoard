@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+
+        <!--ImageView: Input Post Image         -->
+        <ImageView
+
+            android:id="@+id/postImageImageID"
+
+            android:background="@color/teal_200"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:padding="1dp"
+            android:minHeight="200dp"/>
+
+
+        <!--EditText: Input Post title         -->
+
+        <EditText
+
+            android:id="@+id/postTitleTextID"
+            android:background="@drawable/create_post_edit_text_style"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:hint="Enter product name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Spinner for  product category         -->
+        <Spinner
+            android:id="@+id/postCategorySpinnerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:minHeight="45dp"
+            android:padding="10dp"
+            />
+
+
+        <!--EditText: Input Post DDescription         -->
+        <EditText
+
+            android:id="@+id/postDescriptionTextID"
+            android:background="@drawable/create_post_edit_text_style"
+            android:padding="10dp"
+            android:inputType="textCapSentences|textMultiLine"
+            android:hint="Enter product description"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:minHeight="150dp"
+            android:layout_gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <!--EditText: Input product Price      -->
+        <EditText
+
+            android:id="@+id/postProductPriceTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/create_post_edit_text_style"
+            android:hint="Enter Price : BDT"
+            android:inputType="number"
+            android:minHeight="10dp"
+            android:padding="10dp" />
+
+
+
+        <!--Button: publish Post to fireBase      -->
+        <Button
+            android:id="@+id/postPublishButtonID"
+            android:text="PUBLISH POST"
+            android:textSize="17sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/NavDrawerID"
+    tools:openDrawer="start"
+    tools:context=".NavigationDrawerActivity">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationID"
+        android:background="@color/primaryColor_blue"
+        app:menu="@menu/nav_menu_layout"
+        android:layout_gravity = "start"
+        app:headerLayout="@layout/nav_menu_header"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomePageActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:background="#EBEBEB"
+            tools:context=".HomePageActivity">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/firstRecyclerViewID"
+                android:scrollbars="none"
+                />
+        </RelativeLayout>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            style="@style/Widget.App.BottomAppBar"
+            android:id="@+id/bottomAppBarID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fabCradleMargin="10dp"
+            app:fabCradleVerticalOffset="3dp"
+            app:fabCradleRoundedCornerRadius="25dp"
+            android:backgroundTint="@color/primaryColor_teal"
+            app:hideOnScroll="true"
+            android:layout_gravity="bottom">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:background="@android:color/transparent"
+                app:menu="@menu/app_bar_menu"/>
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatButtonID"
+            app:layout_anchor="@id/bottomAppBarID"
+            android:src="@drawable/bottom_app_bar_post_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primaryColor_blue"/>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+<!--
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/colorTransparentWhite"
+    tools:context=".HomePageActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/firstRecyclerViewID"
+        android:scrollbars="none"
+        />
+
+</RelativeLayout>
+
+
+-->
+

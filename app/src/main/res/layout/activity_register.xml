@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:id="@+id/header_loginSingUpPage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:src="@drawable/login_signup_person_icon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/shapePanelRight"
+        android:layout_width="260dp"
+        android:layout_height="530dp"
+        android:background="@drawable/shape_panel_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_loginSingUpPage" >
+
+    </RelativeLayout>
+    <TextView
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_vertical"
+        android:text="S I G N   U P"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/header_loginSingUpPage"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/loginTextID"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/header_loginSingUpPage"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/RegisterPanel"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_register_panel"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="120dp"
+        android:paddingRight="80dp"
+        app:layout_constraintEnd_toStartOf="@id/shapePanelRight"
+        app:layout_constraintTop_toBottomOf="@id/header_loginSingUpPage">
+
+        <EditText
+            android:layout_width="298dp"
+            android:layout_height="45dp"
+            android:id="@+id/username"
+            android:layout_gravity="left"
+            android:drawableRight="@drawable/register_person_icon"
+            android:hint="Enter your user name"
+            android:inputType="textEmailAddress"></EditText>
+
+        <EditText
+            android:layout_width="298dp"
+            android:layout_height="45dp"
+            android:id="@+id/email"
+            android:layout_gravity="left"
+            android:drawableRight="@drawable/login_signup_email_icon"
+            android:hint="Enter your email address"
+            android:inputType="textEmailAddress"></EditText>
+
+
+        <EditText
+            android:layout_width="298dp"
+            android:layout_height="45dp"
+            android:id="@+id/phonenumber"
+            android:layout_gravity="left"
+            android:drawableRight="@drawable/register_phone_icon"
+            android:hint="Enter your phone number"
+            android:inputType="number"></EditText>
+
+        <EditText
+            android:layout_width="298dp"
+            android:layout_height="45dp"
+            android:id="@+id/pass"
+            android:layout_gravity="left"
+            android:drawableRight="@drawable/login_signup_password_icon"
+            android:hint="Make a strong password"
+            android:inputType="textPassword"></EditText>
+
+        <Button
+            android:layout_width="298dp"
+            android:layout_height="45dp"
+            android:id="@+id/registerid"
+            android:layout_gravity="left"
+            android:text="SIGN UP"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/haveAnAccountTextID"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:textColor="@color/primaryColor_blue"
+            android:text="Already have an account?"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

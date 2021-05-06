@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CityBoard</string>
+
+    <string name="buy_sell"> Want to sell something that you do not need anymore? \n    Or want to buy used products at a low price? \n         Ask the community </string>
+
+    <string-array name="slide_desc">
+        <item> Want to sell something that you do not need anymore? \n    Or want to buy used products at a low price? \n         Ask the community. </item>
+        <item> It is exhausting to walk around the city and find To lets.\nWorry no more, we got you covered! </item>
+        <item> Finding it hard to get a private tutor that you desire? \nWell check this app out...</item>
+        <item> This community is yours... \nFeel free to check out what others offering you.</item>
+    </string-array>
+
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name = "Product_Category"> Select Product Category </string>
+    <string-array name = "Category_Items">
+    <item> Resident </item>
+    <item> Teaching </item>
+    <item> Product </item>
+    <item> Service </item>
+    </string-array>
+
+    <string-array name = "price_order">
+        <item> Old to New </item>
+        <item> New to Old </item>
+    </string-array>
+
+</resources>
